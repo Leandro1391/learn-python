@@ -1,3 +1,6 @@
+#Una variable nos va a permirit almacenar información en forma temporal en memroia, puede Numbre, String o Boolea
+# y vamos a poder utilizar tantas veces que lo necesitemos antes que sea destruida o al final de la ejecución de la aplicación
+
 myVariable = "Hello from Python"
 print(myVariable)
 print(myVariable)
