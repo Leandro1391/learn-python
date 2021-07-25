@@ -1,13 +1,14 @@
-#Una variable nos va a permirit almacenar información en forma temporal en memroia, puede Numbre, String o Boolea
-# y vamos a poder utilizar tantas veces que lo necesitemos antes que sea destruida o al final de la ejecución de la aplicación
+#Una variable nos va a permirit almacenar información en forma temporal en memroia, puede ser Number, String o Boolean
+# y una vez almacenado vamos a poder utilizarlo tantas veces que lo necesitemos 
+# antes que sea destruida o al final de la ejecución de la aplicación
 
 myVariable = "Hello from Python"
-#Print es una función que recibe los argumentos para cmostrar en la consola
+#Print es una función que recibe los argumentos para mostrar en la consola
 print(myVariable)
 print(myVariable)
 print(myVariable)
 
-# No es necesario crear el tipo de la variable en python, lo hace forma inferencia
+# No es necesario crear el tipo de la variable en python, lo hace en forma inferencia (implicito)
 
 myVariableNumber = 2
 print(myVariableNumber)
