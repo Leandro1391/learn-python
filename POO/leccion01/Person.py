@@ -29,6 +29,17 @@ class Person:
 # This is the invoke contructor for create object
 personOne = Person('Carla', 'Videla', 40)
 print(f'Object Memory Reference: {personOne}')
-print(f'Person name: {personOne.name}')
-print(f'Person Family Name: {personOne.familyName}')
-print(f'Person age: {personOne.age}')
+print(f'Person Object 1: {personOne.name} {personOne.familyName} {personOne.age}')
+# print(f'Person name: {personOne.name}')
+# print(f'Person Family Name: {personOne.familyName}')
+# print(f'Person age: {personOne.age}')
+
+personTwo = Person('Pablo', 'Gerez', 68)
+print(f'Object Memory Reference: {personTwo}')
+print(f'Person Object 2: {personTwo.name} {personTwo.familyName} {personTwo.age}')
+# print(f'Person name: {personTwo.name}')
+# print(f'Person Family Name: {personTwo.familyName}')
+# print(f'Person age: {personTwo.age}')
+
+# La clase es la plantilla o el molde donde a partir de esto creamos los objetos
+# La clase es donde nos va a permitir definir las características y comportamientos del objeto
