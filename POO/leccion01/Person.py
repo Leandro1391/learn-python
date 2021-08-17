@@ -18,6 +18,8 @@ class Person:
     # Contructor inicializa los atirbutos del objeto pero realmente está oculto en python
     # self es como la palabra reservada this, es decir, una referencia al mismo objeto donde podremos acceder sus atributos y metodos
     # method dunder init o double underscore o tambien llamado metodo especial o tipo dunder en python
+    # No es obligatorio llamar la palabra reservada de instancia self tambien puede llamarse this pero en la doc de python
+    # recomiendan que se llame self y siempre tiene que empezar en el primer parametro de los metodos o en init
     def __init__(self, name, familyName, age) -> Union[str,int]:
         # Iniciamos los atributos de instancia
         self.name = name
@@ -30,7 +32,7 @@ class Person:
     # def __repr__(self) -> str:
     #     pass
 
-    # todos los metodos de instancia va a recibir el parametro self -> se van asociar a los objetos creados
+    # todos los metodos de instancia van a recibir el parametro self -> se van asociar a los objetos creados
     def show_details(self):
         print(f'Persona: {self.name} {self.familyName} {self.age}')
         
@@ -62,5 +64,17 @@ personTwo.age = 32
 print(f'Person Object 1: {personOne.name} {personOne.familyName} {personOne.age}')
 print(f'Person Object 2: {personTwo.name} {personTwo.familyName} {personTwo.age}')
 
+
 personOne.show_details()
 personTwo.show_details()
+
+# Podemos acceder al metodo showDetail como un metodo estatico de la clase pero lo recomendable es invocar a traves de la 
+# instancia, salvo que en el diseó se requiere que sea estatico
+Person.show_details(personTwo)
+
+# En python podemos agregar nuevos atributos al vuelo pero no se van a compartir con el resto de los objetos
+personOne.telefono = '5485135'
+print(personOne.telefono)
+
+print(personTwo.telefono)
+
