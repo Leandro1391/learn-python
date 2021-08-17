@@ -20,11 +20,13 @@ class Person:
     # method dunder init o double underscore o tambien llamado metodo especial o tipo dunder en python
     # No es obligatorio llamar la palabra reservada de instancia self tambien puede llamarse this pero en la doc de python
     # recomiendan que se llame self y siempre tiene que empezar en el primer parametro de los metodos o en init
-    def __init__(self, name, familyName, age) -> Union[str,int]:
+    def __init__(self, name, familyName, age, *tupleElement, **kwargs) -> Union[str,int]:
         # Iniciamos los atributos de instancia
         self.name = name
         self.familyName = familyName
         self.age = age
+        self.values = tupleElement # tupla de argumentos variables
+        self.terminos = kwargs
 
     # def __str__(self) -> str:
     #     pass
@@ -34,13 +36,13 @@ class Person:
 
     # todos los metodos de instancia van a recibir el parametro self -> se van asociar a los objetos creados
     def show_details(self):
-        print(f'Persona: {self.name} {self.familyName} {self.age}')
+        print(f'Persona: {self.name} {self.familyName} {self.age} {self.values} {self.terminos}')
         
 
 # print(type(Person))
 
 # This is the invoke contructor for create object
-personOne = Person('Carla', 'Videla', 40)
+personOne = Person('Carla', 'Videla', 40, '80486547', 2, 3, 8, a='apple', w='watermelon')
 print(f'Object Memory Reference: {personOne}')
 print(f'Person Object 1: {personOne.name} {personOne.familyName} {personOne.age}')
 # print(f'Person name: {personOne.name}')
@@ -76,5 +78,6 @@ Person.show_details(personTwo)
 personOne.telefono = '5485135'
 print(personOne.telefono)
 
-print(personTwo.telefono)
+# Error porque no existe el atributo en el objeto personTwo
+# print(personTwo.telefono)
 
