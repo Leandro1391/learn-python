@@ -1,6 +1,11 @@
+# https://umletino.com/umletino.html
+
 # pass solamente va crear el metodo clase o consutructor sin ningun contenido
 # con la palabra reservada pass solamente indicamos que no se va a procesar nada en la clase persona solamente crea
 # el tipo de dato
+
+# Los ATRIBUTOS son las caracteristicas que nuestros objetos van a tener al momento de crearlos con instancia de la clase
+# Los METODOS son los comportamientos que van a tener nuestros objeto
 
 from typing import Union
 
@@ -24,6 +29,10 @@ class Person:
 
     # def __repr__(self) -> str:
     #     pass
+
+    # todos los metodos de instancia va a recibir el parametro self -> se van asociar a los objetos creados
+    def show_details(self):
+        print(f'Persona: {self.name} {self.familyName} {self.age}')
         
 
 # print(type(Person))
@@ -52,3 +61,6 @@ personOne.familyName = 'Ramoes'
 personTwo.age = 32
 print(f'Person Object 1: {personOne.name} {personOne.familyName} {personOne.age}')
 print(f'Person Object 2: {personTwo.name} {personTwo.familyName} {personTwo.age}')
+
+personOne.show_details()
+personTwo.show_details()
