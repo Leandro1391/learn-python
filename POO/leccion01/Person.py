@@ -8,6 +8,8 @@ from typing import Union
 class Person:
     # pass
 
+    # Aquí pdoemos crear los atributos de clase
+
     # Contructor inicializa los atirbutos del objeto pero realmente está oculto en python
     # self es como la palabra reservada this, es decir, una referencia al mismo objeto donde podremos acceder sus atributos y metodos
     # method dunder init o double underscore o tambien llamado metodo especial o tipo dunder en python
@@ -43,3 +45,10 @@ print(f'Person Object 2: {personTwo.name} {personTwo.familyName} {personTwo.age}
 
 # La clase es la plantilla o el molde donde a partir de esto creamos los objetos
 # La clase es donde nos va a permitir definir las características y comportamientos del objeto
+
+# modified values in objects (esto no es recomendable, usar getters y setters - encapsulamiento)
+personOne.name = 'Ramona'
+personOne.familyName = 'Ramoes'
+personTwo.age = 32
+print(f'Person Object 1: {personOne.name} {personOne.familyName} {personOne.age}')
+print(f'Person Object 2: {personTwo.name} {personTwo.familyName} {personTwo.age}')
