@@ -43,7 +43,8 @@ class Person:
 
 # This is the invoke contructor for create object
 personOne = Person('Carla', 'Videla', 40, '80486547', 2, 3, 8, a='apple', w='watermelon')
-print(f'Object Memory Reference: {personOne}')
+print(f'Object Memory Reference: {type(personOne)}')
+# print(isinstance(personOne, Person))
 print(f'Person Object 1: {personOne.name} {personOne.familyName} {personOne.age}')
 # print(f'Person name: {personOne.name}')
 # print(f'Person Family Name: {personOne.familyName}')
