@@ -7,28 +7,60 @@ from typing import Union
 
 class PersonaEncapsulamiento:
 
-    def __init__(self, name, familyName, age) -> Union[str,int]:
+    def __init__(self, name, familyName, age):
         self._name = name
-        self.familyName = familyName
-        self.age = age
+        self._familyName = familyName
+        self._age = age
+
 
     # GET - decorator poperty - los decoradores modifican el compotamiento del metodo get
     @property
     def name(self):
         return self._name
 
-    # SET
+    # para crear variables de solo lectura no debo crear la propiedad setter
+
+    # SET name
     @name.setter
     def name(self, name):
         self._name = name
+    
+    # GET familyName
+    @property
+    def familyName(self):
+        return self._familyName
+
+    # SET familyName
+    @familyName.setter
+    def familyName(self, familyName):
+        self._familyName = familyName
+
+    # GET age
+    @property
+    def age(self):
+        return self._age
+
+    # SET age
+    @age.setter
+    def age(self, age):
+        self._age = age    
 
     def show_details(self):
-        print(f'Persona: {self._name} {self.familyName} {self.age}')
+        print(f'Persona: {self._name} {self._familyName} {self._age}')
+        
 
 person1 = PersonaEncapsulamiento('Rosa', 'Paglione', 35)
 print(person1.name)
 person1.name = 'Gabriel Pedro'
 print(person1.name)
+
+person1.age = 54
+print(person1.age)
+
+person1.familyName = 'Gilberto'
+print(person1.familyName)
+
+person1.show_details()
 
 
 # Esta forma es incorrecta se deve setear a través de un metodo
