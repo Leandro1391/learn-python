@@ -47,20 +47,24 @@ class PersonaEncapsulamiento:
 
     def show_details(self):
         print(f'Persona: {self._name} {self._familyName} {self._age}')
-        
 
-person1 = PersonaEncapsulamiento('Rosa', 'Paglione', 35)
-print(person1.name)
-person1.name = 'Gabriel Pedro'
-print(person1.name)
 
-person1.age = 54
-print(person1.age)
+# Con esto validamos que no ejecute este test en otro modulo o archivo
+if __name__ == '__main__':
+    person1 = PersonaEncapsulamiento('Rosa', 'Paglione', 35)
+    print(person1.name)
+    person1.name = 'Gabriel Pedro'
+    print(person1.name)
 
-person1.familyName = 'Gilberto'
-print(person1.familyName)
+    person1.age = 54
+    print(person1.age)
 
-person1.show_details()
+    person1.familyName = 'Gilberto'
+    print(person1.familyName)
+
+    person1.show_details()
+
+    print(__name__)
 
 
 # Esta forma es incorrecta se deve setear a través de un metodo
