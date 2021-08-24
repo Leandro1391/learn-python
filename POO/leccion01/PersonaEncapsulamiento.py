@@ -1,6 +1,5 @@
 # https://umletino.com/umletino.html
 
-from typing import Union
 
 # Todo atributo con guion bajo en la clase significa que esta encapsulado
 
@@ -47,6 +46,10 @@ class PersonaEncapsulamiento:
 
     def show_details(self):
         print(f'Persona: {self._name} {self._familyName} {self._age}')
+
+    # Todos los objetos en python heredan de la clase OBJECT
+    def __del__(self):
+        print(f'Person: {self._name} {self._familyName}')
 
 
 # Con esto validamos que no ejecute este test en otro modulo o archivo
