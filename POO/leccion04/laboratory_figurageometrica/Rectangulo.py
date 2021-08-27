@@ -7,7 +7,7 @@ class Rectangulo(FiguraGeometrica, Color):
         Color.__init__(self, color)
 
     def calcularAreaFigura(self):
-        return self.set_alto * self.set_ancho
+        return self.alto * self.base
 
     def __str__(self) -> str:
         # return f'{super().__str__()}'

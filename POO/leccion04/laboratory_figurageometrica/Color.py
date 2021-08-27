@@ -3,11 +3,11 @@ class Color:
         self._color = color
 
     @property
-    def get_color(self):
+    def getColor(self):
         return self._color
     
-    @get_color.setter
-    def set_color(self, color):
+    @getColor.setter
+    def setColor(self, color):
         self._color = color
 
     def __str__(self) -> str:
