@@ -1,4 +1,12 @@
-class FiguraGeometrica:
+# Las clases abstractas sirve para implementar metodos abstractos y esto obliga implementar a las clases hijas, pero en la
+# clase padre no se implementa, solamente creamos la firma del metodo abstracto (por ejemplo calcularArea()) y también
+# al definir a la clase padre como abstracto NO se podra crear instancias del mismo al ser una clase abstract
+
+#ABC = Abstract Base Class
+from abc import ABC, abstractmethod
+
+
+class FiguraGeometrica(ABC):
 
     def __init__(self, alto, base) -> None:
         if self._validate_value(alto):
@@ -34,6 +42,11 @@ class FiguraGeometrica:
             self._base = base
         else:
             print(f'Valor erroneo base: {base}')
+
+    @abstractmethod
+    def calcularAreaFigura(self):
+        pass
+
 
     def __str__(self) -> str:
         # return f'{super().__str__()}, Figura geometrica: [alto: {self._alto}, base: {self._base}]'
