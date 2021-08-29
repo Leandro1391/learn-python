@@ -10,11 +10,28 @@ class MyClass:
     def __init__(self, variableInstance):
         self.variableInstance = variableInstance
 
+    # METODOS ESTATICOS: Se asocian a la clase igual que una variable de clase, no pueden acceder a los metodos y atributos de instancia 
+    # porque los metodos estaticos se cargan en memoria en el momento que se crea por primera vez la instancia de la clase u OBJETO, 
+    # NUNCA SE CREARA ANTES LOS METODOS ESTATICOS qie los objetos
+    @staticmethod
+    def methodStatic():
+        MyClass.variablesClass()
+        # En el metodo estatico no se puede inicializar variables o atributos de instancia porque el metodo pertenece al contexto estático y se crean antes
+        # que los objetos en memoria
+
+
+
+# Acceso al metodo estatico
+MyClass.methodStatic()
+
+# self hace referencia a objetos
+
+
 print(MyClass.variablesClass)
 miClass = MyClass('Value variable instance')
 print(miClass.variableInstance)
 
-# Los objetos también se pueden acceder a las variables de clase
+# Los objetos también pueden acceder a las variables de clase
 print(miClass.variablesClass)
 
 # Como python es un lenguaje dinamico y todos los tipos de datos son objetos => es posible crear atributos en vuelo
