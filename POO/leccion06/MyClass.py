@@ -17,9 +17,17 @@ print(miClass.variableInstance)
 # Los objetos también se pueden acceder a las variables de clase
 print(miClass.variablesClass)
 
+# Como python es un lenguaje dinamico y todos los tipos de datos son objetos => es posible crear atributos en vuelo
+MyClass.variableClaseFly2 = 'Value cariable class 2'
+
 # Se puede acceder a las variables de clase desde un objeto porque en primer lugar se carga la clase en memoria (Contexto Estático)
 # y después al estar cargado en memoria podemos crear las instancias de las clases (objetos) (Contexto Dinámico)
 
 miClass3 = MyClass('Other value variable instance')
 print(miClass3.variableInstance)
 print(miClass3.variablesClass)
+
+
+print('***********************')
+print(miClass.variableClaseFly2)
+print(miClass3.variableClaseFly2)
