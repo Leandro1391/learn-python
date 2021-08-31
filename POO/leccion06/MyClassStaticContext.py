@@ -30,15 +30,34 @@ class MyClass:
     def methodClass(cls):
         print(cls.variableClass)
 
+    # Desde un metodo de instancia puede acceder a los metodos de clase y también a las variables clases y de instancia
+    def methodInstance(self):
+        self.methodClass()
+        self.methodStatic()
+        print(self.variableClass)
+        print(self.variableInstance)
+
 
 MyClass.methodClass()  
 
 
 # Acceso al metodo estatico
 MyClass.methodStatic()
+miObjecto1 = MyClass('variables instancia')
+miObjecto1.methodClass()
+miObjecto1.methodInstance()
 
 
 #Un metodo estatico no recibe una referencia de nuestra clase y por lo tanto no contiene nninguna información de nuestra clase
 # para acceder a los atributos de la clase tenemos que acceder mediante el nombre del mismo
 
 # Metodo de clase recibe la información de la misma y podemos acceder sus atributos o metodo con el parametro cls
+
+# Los objetos pueden acceder a los elementos de dinamicos y estaticos porque están almacenados en memtoria, 
+# pero las de Clase no puede acceder a los objetos porque no fueron creada estos últimos
+
+# Contexto Estatico - Contexto Dinamico
+
+
+
+# CONSTANTES: No exiten las contantes en python pero se puede crear un archivo .ini para que no se puede modificar por la fuerza
