@@ -48,13 +48,13 @@ miObjecto1.methodClass()
 miObjecto1.methodInstance()
 
 
-#Un metodo estatico no recibe una referencia de nuestra clase y por lo tanto no contiene nninguna información de nuestra clase
+# Un metodo estatico no recibe una referencia de nuestra clase y por lo tanto no contiene nninguna información de nuestra clase
 # para acceder a los atributos de la clase tenemos que acceder mediante el nombre del mismo
 
 # Metodo de clase recibe la información de la misma y podemos acceder sus atributos o metodo con el parametro cls
 
-# Los objetos pueden acceder a los elementos de dinamicos y estaticos porque están almacenados en memtoria, 
-# pero las de Clase no puede acceder a los objetos porque no fueron creada estos últimos
+# Los objetos pueden acceder a los elementos dinamicos y estaticos porque están almacenados en memtoria, 
+# pero las de Clase no puede acceder a los objetos porque no fueron creada estos últimos y por ende no están almacenados en memoria
 
 # Contexto Estatico - Contexto Dinamico
 
