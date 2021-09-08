@@ -57,7 +57,7 @@ print(nombres)
 nombres.pop()
 print(nombres)
 
-# Eleminar un indici especifico
+# Eleminar un indice especifico
 del nombres[0]
 print(nombres)
 

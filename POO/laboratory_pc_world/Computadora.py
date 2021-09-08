@@ -1,6 +1,10 @@
+from Monitor import Monitor
+from Teclado import Teclado
+from Raton import Raton
+
 class Computadora:
 
-    contadorComputadoras: int
+    contadorComputadoras: int = 0
 
     def __init__(self, nombre: str, monitor, teclado, raton):
         self._idComputadora = Computadora.contadorComputadoras + 1
@@ -8,6 +12,7 @@ class Computadora:
         self._monitor = monitor
         self._teclado = teclado
         self._raton = raton
+        Computadora.contadorComputadoras = self._idComputadora
 
     @property
     def idComputadora(self):
@@ -50,4 +55,14 @@ class Computadora:
         self._raton = raton
 
     def __str__(self) -> str:
-        return f'Computadora: [idComputadora {self._idComputadora}, nombre {self._nombre}, monitor {self._monitor}, teclado {self._teclado}, raton {self._raton}]'
+        return f'Computadora: id {self._idComputadora}, nombre {self._nombre}, {self._monitor}, {self._teclado}, {self._raton}'
+
+
+if __name__ == '__main__':
+    unRaton = Raton('Lenovo', 'usb')
+    unMonitor = Monitor('Lenovo', '21')
+    unTeclado = Teclado('usb' ,'Lenovo')
+    
+    unaComputadora = Computadora('Enigma', unMonitor, unTeclado, unRaton)
+
+    print(unaComputadora)

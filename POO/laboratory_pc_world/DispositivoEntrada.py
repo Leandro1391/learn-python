@@ -1,8 +1,8 @@
 class DispositivoEntrada:
 
-    def __init__(self, tipoEntrada, marca):
-        self._tipoEntrada = tipoEntrada
+    def __init__(self, marca, tipoEntrada):
         self._marca = marca
+        self._tipoEntrada = tipoEntrada
 
     @property
     def tipoEntrada(self):
@@ -21,4 +21,4 @@ class DispositivoEntrada:
         self._marca = marca
 
     def __str__(self) -> str:
-        return f'DispositivoEntrada: [tipoEntrada {self._tipoEntrada}, marca {self._marca}]'
+        return f'marca: {self._marca}, tipoEntrada: {self._tipoEntrada}'

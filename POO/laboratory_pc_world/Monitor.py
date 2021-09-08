@@ -2,10 +2,11 @@ class Monitor:
 
     contadorMonitores: int = 0
 
-    def __init__(self, marca: str, tamanio):
+    def __init__(self, marca: str, tamanio: str):
         self._idMonitor = Monitor.contadorMonitores + 1
         self._marca = marca
         self._tamanio = tamanio
+        Monitor.contadorMonitores = self._idMonitor
 
     @property
     def idMonitor(self):
@@ -32,4 +33,9 @@ class Monitor:
         self._tamanio = tamanio
 
     def __str__(self) -> str:
-        return f'Monitor: [idMonitor {self._idMonitor}, marca {self._marca}, tamanio {self._tamanio}]'
+        return f'Monitor: id {self._idMonitor}, marca {self._marca}, tamanio {self._tamanio}'
+
+
+if __name__ == '__main__':
+        unMonitor = Monitor('Lenovo', '21')
+        print(unMonitor)
