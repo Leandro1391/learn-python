@@ -22,9 +22,12 @@ segundaComputadora = Computadora('Pentium', dueMonitor, dueTeclado, dueRaton)
 terceraComputadora = Computadora('Pentium', monitorTres, tecladoTres, ratonTres)
 
 computadorasUno = [unaComputadora, segundaComputadora]
+computadorasDos = [segundaComputadora, terceraComputadora]
 
 unaOrden = Orden(computadorasUno)
+ordenDos = Orden(computadorasDos)
 
 unaOrden.agregarComputadora(terceraComputadora)
 
 print(f'{unaOrden}')
+print(f'{ordenDos}')

@@ -7,12 +7,13 @@ class Computadora:
     contadorComputadoras: int = 0
 
     def __init__(self, nombre: str, monitor, teclado, raton):
-        self._idComputadora = Computadora.contadorComputadoras + 1
+        # self._idComputadora = Computadora.contadorComputadoras + 1
+        Computadora.contadorComputadoras += 1
+        self._idComputadora = Computadora.contadorComputadoras
         self._nombre = nombre
         self._monitor = monitor
         self._teclado = teclado
         self._raton = raton
-        Computadora.contadorComputadoras = self._idComputadora
 
     @property
     def idComputadora(self):
@@ -55,7 +56,12 @@ class Computadora:
         self._raton = raton
 
     def __str__(self) -> str:
-        return f'Computadora: id {self._idComputadora}, nombre {self._nombre}, {self._monitor}, {self._teclado}, {self._raton}'
+        return f'''
+        {self._nombre}: {self._idComputadora}
+        Monitor: {self._monitor}
+        Teclado: {self._teclado}
+        Ratón: {self._raton}
+        '''
 
 
 if __name__ == '__main__':

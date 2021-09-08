@@ -17,6 +17,7 @@ class Orden:
     @idOrden.setter
     def idOrden(self, idOrden):
         self._idOrden = idOrden
+
     @property
     def computadoras(self):
         return self._computadoras
@@ -28,14 +29,22 @@ class Orden:
     def agregarComputadora(self, computadora):
         self._computadoras.append(computadora)
 
-    def getListComputadoras(self):
-        txt: str = ''
-        for item in reversed(self._computadoras):
-            txt = f'HP: {item.idComputadora}\n\t\t {item.monitor}\n\t\t {item.teclado}\n\t\t {item.raton}\n\t {txt}'
-        return txt
+    # def getListComputadoras(self):
+    #     txt: str = ''
+    #     for item in reversed(self._computadoras):
+    #         txt = f'HP: {item.idComputadora}\n\t\t {item.monitor}\n\t\t {item.teclado}\n\t\t {item.raton}\n\t {txt}'
+    #     return txt
 
     def __str__(self) -> str:
-        return f'Orden: {self._idOrden}, Computadoras:\n\t {self.getListComputadoras()}'
+        # return f'Orden: {self._idOrden}, Computadoras:\n\t {self.getListComputadoras()}'
+        computadorasStr = ''
+        for computadora in self._computadoras:
+            computadorasStr += computadora.__str__()
+
+        return f'''
+Orden: {self._idOrden}
+Computadoras: {computadorasStr}
+        '''
 
 if __name__ == '__main__':
     unaOrdem = Orden()

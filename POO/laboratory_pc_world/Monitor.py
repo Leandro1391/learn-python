@@ -33,7 +33,7 @@ class Monitor:
         self._tamanio = tamanio
 
     def __str__(self) -> str:
-        return f'Monitor: id {self._idMonitor}, marca {self._marca}, tamanio {self._tamanio}'
+        return f'id {self._idMonitor}, marca {self._marca}, tamanio {self._tamanio}'
 
 
 if __name__ == '__main__':

@@ -18,8 +18,7 @@ class Raton(DispositivoEntrada):
         self._idRaton = idRaton
 
     def __str__(self) -> str:
-        return f'Raton: id: {self._idRaton} {super().__str__()}'
-
+        return f'id: {self._idRaton} {super().__str__()}'
     
 if __name__ == '__main__':
         unRaton = Raton('Lenovo', 'usb')
