@@ -1,11 +1,18 @@
+from NumbersEqualsException import NumbersEqualsException
+
 result = None
 # a = 10
 # a = '10'
 # b = 0
 
+# RAISE: permite lanzar un exception | throw a exception
+
 try:
     a = int(input('First number: '))
     b = int(input('Second number: '))
+    if a == b:
+        # This is a throw exception with raise - arroja cualquier tipo de exception puede ser un raise functinName()
+        raise NumbersEqualsException('Numbers are equals')
     result = a/b
 except ZeroDivisionError as e:
     print(f'ZeroDivisionError - Error handled: {e}, {type(e)}')
