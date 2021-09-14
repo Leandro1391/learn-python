@@ -1,5 +1,7 @@
 try:
     file = open('test.txt', 'r', encoding='utf8')
+    print(type(file))
+    
 except Exception as e:
     print(f'Exception - Error handled: {e}, {type(e)}')
 
@@ -13,8 +15,14 @@ except Exception as e:
 # print(file.readline())
 # print(file.readline())
 
+# r: Read - Default value. Opens a file for reading, error if the file does not exist
+# a: Append - Opens a file for appending, creates the file if it does not exist
+# w: Write: Opens a file for writing, creates the file if it does not exist
+# x: Create: Creates the specified file, return an error if the file exist
+
 # w+:  escribir y leer informacion
-# r+: abre lee y escribi el archivo
+# r+: abre lee y escribe el archivo
+
 
 # loop lines in the file
 # for line in file:

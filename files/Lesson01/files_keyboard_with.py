@@ -10,4 +10,3 @@ from HandleFiles import HandleFiles
 
 with HandleFiles('test.txt') as file:
     print(file.read())
-    

@@ -2,4 +2,6 @@ Add information to file
 Goodbye - é
 Third LineAdd information to file
 Goodbye - é
+Third LineAdd information to file
+Goodbye - é
 Third Line
