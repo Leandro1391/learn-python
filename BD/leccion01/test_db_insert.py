@@ -14,8 +14,14 @@ try:
     with conn:
         with conn.cursor() as cursor:
             sentence = 'INSERT INTO test.personas(nombre, apellido, email) VALUES(%s, %s, %s)'
-            values = ('Charles', 'Lennon', 'clennon@gmail.com')
-            cursor.execute(sentence, values)
+            # se puede realizar de esta forma porque estoy enviando una tupla de tuplas en values
+            values = (
+                ('Esteban', 'Estevez', 'eestevez@gmail.com'),
+                ('Rebeca', 'Garcia', 'rgarcia@gmail.com'),
+                ('Maria', 'Rosa', 'mrosa@gmail.com')
+            )
+            # cursor.execute(sentence, values)
+            cursor.executemany(sentence, values)
             # Tenemos que confirmar la transaccion pero como estamos usamos with no necesitamos confirmar en forma explicita
             # conn.commit()
             registros_insertados = cursor.rowcount
