@@ -14,10 +14,13 @@ conn = psycopg2.connect(
 try:
     with conn:
         with conn.cursor() as cursor:
-            sentence = 'SELECT * FROM test.personas'
-            cursor.execute(sentence)
-            registros = cursor.fetchall()
-            print(registros)
+            sentence = 'SELECT id_persona, nombre FROM test.personas WHERE id_persona = %s'
+            id_persona = input('Ingresar el valor de id_persona: ')
+            cursor.execute(sentence, (id_persona,))
+            # registros = cursor.fetchall()
+            # Solamente trae un registro fetchone()
+            registros = cursor.fetchone()
+            print(registro)
 except Exception as e:
     print(f'Exception - Error handled: {e}, {type(e)}')
 finally:
