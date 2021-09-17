@@ -13,9 +13,9 @@ conn = psycopg2.connect(
 try:
     with conn:
         with conn.cursor() as cursor:
-            sentence = 'DELETE FROM test.personas WHERE id_persona=%s'
-            enter = input('Ingresar el id_persona a eliminar: ')
-            values = (enter,)
+            sentence = 'DELETE FROM test.personas WHERE id_persona IN %s'
+            enter = input('Ingresar el id_persona a eliminar (separados por comas): ')
+            values = (tuple(enter.split(',')),)
             cursor.execute(sentence, values)
             registros_eliminados = cursor.rowcount
             print(f'Registros eliminados: {registros_eliminados}')
