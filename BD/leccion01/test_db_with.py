@@ -10,17 +10,22 @@ conn = psycopg2.connect(
 )
 
 
-
 try:
     with conn:
         with conn.cursor() as cursor:
-            sentence = 'SELECT id_persona, nombre FROM test.personas WHERE id_persona = %s'
-            id_persona = input('Ingresar el valor de id_persona: ')
-            cursor.execute(sentence, (id_persona,))
-            # registros = cursor.fetchall()
+            # sentence = 'SELECT id_persona, nombre FROM test.personas WHERE id_persona = %s'
+            sentence = 'SELECT * FROM test.personas WHERE id_persona IN %s'
+            # prymaries_keys = ((1,2,3),)
+            enter = input('Proporciona los id\'s a buscar (separado por comas): ')
+            prymaries_keys = (tuple(enter.split(',')),)
+            # id_persona = input('Ingresar el valor de id_persona: ')
+            cursor.execute(sentence, prymaries_keys)
+            registros = cursor.fetchall()
+
             # Solamente trae un registro fetchone()
-            registros = cursor.fetchone()
-            print(registro)
+            # registro = cursor.fetchone()
+            for registro in registros:
+                print(registros)
 except Exception as e:
     print(f'Exception - Error handled: {e}, {type(e)}')
 finally:
