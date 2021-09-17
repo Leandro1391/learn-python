@@ -16,7 +16,7 @@ print(conn)
 # 2) Create object cursor for sentences
 cursor = conn.cursor()
 
-sentence = 'SELECT * FROM personas'
+sentence = 'SELECT * FROM test.personas'
 
 # 3) Execute sentence SQL
 cursor.execute(sentence)
