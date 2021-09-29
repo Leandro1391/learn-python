@@ -1,0 +1,23 @@
+2021:09:26: DEBUG [logger_base.py:9] Message level debug
+2021:09:26: INFO [logger_base.py:10] Message level info
+2021:09:26: WARNING [logger_base.py:11] Message level warning
+2021:09:26: ERROR [logger_base.py:12] Message level error
+2021:09:26: CRITICAL [logger_base.py:13] Message level critical
+2021:09:26: DEBUG [Persona.py:54] Persona: [id_persona 1, nombre Esteban, apellido Pinti, email epinti@gmail.com]
+2021:09:26: DEBUG [Persona.py:52] Persona: [id_persona Esteban, nombre Pinti, apellido epinti@gmail.com, email None]
+2021:09:26: DEBUG [Persona.py:52] Persona: [id_persona 1, nombre Esteban, apellido Pinti, email epinti@gmail.com]
+2021:09:26: DEBUG [Persona.py:54] Persona: 
+            id_persona 1, nombre Esteban, 
+            apellido Pinti, email epinti@gmail.com
+2021:09:26: DEBUG [Persona.py:54] Persona: 
+            id_persona 1, nombre Esteban, 
+            apellido Pinti, email epinti@gmail.com
+2021:09:26: DEBUG [Persona.py:58] Persona: 
+            id_persona None, nombre Enrique, 
+            apellido Garcia, email egarcia@gmail.com
+2021:09:26: DEBUG [Persona.py:63] Persona: 
+            id_persona 1, nombre None, 
+            apellido None, email None
+2021:09:28: DEBUG [Conexion.py:26] Conexion exitosa: <connection object at 0x7f64e1e9d680; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:28: DEBUG [Conexion.py:26] Conexion exitosa: <connection object at 0x7fb4f8d7d680; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:28: DEBUG [Conexion.py:39] The cursor has been opened success
