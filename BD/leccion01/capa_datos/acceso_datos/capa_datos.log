@@ -21,3 +21,657 @@
 2021:09:28: DEBUG [Conexion.py:26] Conexion exitosa: <connection object at 0x7f64e1e9d680; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
 2021:09:28: DEBUG [Conexion.py:26] Conexion exitosa: <connection object at 0x7fb4f8d7d680; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
 2021:09:28: DEBUG [Conexion.py:39] The cursor has been opened success
+2021:09:28: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7f32cfc74a40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:28: DEBUG [conexion.py:39] The cursor has been opened success
+2021:09:28: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7fd26d624a40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:28: DEBUG [conexion.py:39] The cursor has been opened success
+2021:09:28: DEBUG [persona_dao.py:58] Persona: 
+            id_persona 1, nombre Giovanni, 
+            apellido Di Virgilio, email None
+2021:09:28: DEBUG [persona_dao.py:58] Persona: 
+            id_persona 2, nombre Sofia, 
+            apellido Morales, email None
+2021:09:28: DEBUG [persona_dao.py:58] Persona: 
+            id_persona 3, nombre Julio, 
+            apellido Fernandez, email None
+2021:09:28: DEBUG [persona_dao.py:58] Persona: 
+            id_persona 8, nombre Fernando, 
+            apellido Perez, email None
+2021:09:28: DEBUG [persona_dao.py:58] Persona: 
+            id_persona 9, nombre Leticia, 
+            apellido America, email None
+2021:09:28: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7f4803a8ca40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:28: DEBUG [conexion.py:39] The cursor has been opened success
+2021:09:28: DEBUG [persona_dao.py:58] Persona: 
+            id_persona: 1, 
+            nombre: Giovanni, 
+            apellido: Di Virgilio,
+            email None
+2021:09:28: DEBUG [persona_dao.py:58] Persona: 
+            id_persona: 2, 
+            nombre: Sofia, 
+            apellido: Morales,
+            email None
+2021:09:28: DEBUG [persona_dao.py:58] Persona: 
+            id_persona: 3, 
+            nombre: Julio, 
+            apellido: Fernandez,
+            email None
+2021:09:28: DEBUG [persona_dao.py:58] Persona: 
+            id_persona: 8, 
+            nombre: Fernando, 
+            apellido: Perez,
+            email None
+2021:09:28: DEBUG [persona_dao.py:58] Persona: 
+            id_persona: 9, 
+            nombre: Leticia, 
+            apellido: America,
+            email None
+2021:09:28: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7f8f9f904a40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:28: DEBUG [conexion.py:39] The cursor has been opened success
+2021:09:28: DEBUG [persona_dao.py:58] (<persona.Persona object at 0x7f8f9f85deb0>, 'gdivirgilio@gmail.com')
+2021:09:28: DEBUG [persona_dao.py:58] (<persona.Persona object at 0x7f8f9f9f5f10>, 'smorales@gmail.com')
+2021:09:28: DEBUG [persona_dao.py:58] (<persona.Persona object at 0x7f8f9f84e8e0>, 'jfernandez@gmail.com')
+2021:09:28: DEBUG [persona_dao.py:58] (<persona.Persona object at 0x7f8f9f84e550>, 'fperez@gmail.com')
+2021:09:28: DEBUG [persona_dao.py:58] (<persona.Persona object at 0x7f8f9f84e910>, 'lamerica@gmail.com')
+2021:09:28: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7f2db85aca40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:28: DEBUG [conexion.py:39] The cursor has been opened success
+2021:09:28: DEBUG [persona_dao.py:58] (<persona.Persona object at 0x7f2db8521e80>, 'gdivirgilio@gmail.com')
+2021:09:28: DEBUG [persona_dao.py:58] (<persona.Persona object at 0x7f2db869df10>, 'smorales@gmail.com')
+2021:09:28: DEBUG [persona_dao.py:58] (<persona.Persona object at 0x7f2db8493850>, 'jfernandez@gmail.com')
+2021:09:28: DEBUG [persona_dao.py:58] (<persona.Persona object at 0x7f2db84934c0>, 'fperez@gmail.com')
+2021:09:28: DEBUG [persona_dao.py:58] (<persona.Persona object at 0x7f2db8493880>, 'lamerica@gmail.com')
+2021:09:28: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7ff91af10a40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:28: DEBUG [conexion.py:39] The cursor has been opened success
+2021:09:28: DEBUG [persona_dao.py:34] Persona: 
+            id_persona: 1, nombre: Giovanni, 
+            apellido: Di Virgilio, email: gdivirgilio@gmail.com
+2021:09:28: DEBUG [persona_dao.py:34] Persona: 
+            id_persona: 2, nombre: Sofia, 
+            apellido: Morales, email: smorales@gmail.com
+2021:09:28: DEBUG [persona_dao.py:34] Persona: 
+            id_persona: 3, nombre: Julio, 
+            apellido: Fernandez, email: jfernandez@gmail.com
+2021:09:28: DEBUG [persona_dao.py:34] Persona: 
+            id_persona: 8, nombre: Fernando, 
+            apellido: Perez, email: fperez@gmail.com
+2021:09:28: DEBUG [persona_dao.py:34] Persona: 
+            id_persona: 9, nombre: Leticia, 
+            apellido: America, email: lamerica@gmail.com
+2021:09:28: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7f22d401aa40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:28: DEBUG [conexion.py:39] The cursor has been opened success
+2021:09:28: DEBUG [persona_dao.py:36] person inserted: Persona: 
+            id_persona: None, nombre: Emilia, 
+            apellido: Clark, email: eclark@gmail.com
+2021:09:28: DEBUG [persona_dao.py:47] Persosn inserted: 1
+2021:09:28: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7f7849f6aa40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:28: DEBUG [conexion.py:39] The cursor has been opened success
+2021:09:28: DEBUG [persona_dao.py:36] person inserted: Persona: 
+            id_persona: None, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:28: DEBUG [persona_dao.py:47] Person inserted: 1
+2021:09:28: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7f9673976680; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:28: DEBUG [conexion.py:39] The cursor has been opened success
+2021:09:28: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7f62354e2a40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:28: DEBUG [conexion.py:39] The cursor has been opened success
+2021:09:28: DEBUG [persona_dao.py:36] person inserted: Persona: 
+            id_persona: None, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:28: DEBUG [persona_dao.py:47] Person inserted: 1
+2021:09:28: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7f7214aad680; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:28: DEBUG [conexion.py:39] The cursor has been opened success: <cursor object at 0x7f7212c704f0; closed: 0>
+2021:09:28: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7f2367e23a40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:28: DEBUG [conexion.py:39] The cursor has been opened success: <cursor object at 0x7f2367d64a90; closed: 0>
+2021:09:28: DEBUG [persona_dao.py:36] person inserted: Persona: 
+            id_persona: None, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:28: DEBUG [persona_dao.py:47] Person inserted: 1
+2021:09:28: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7fdd0b22ba40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:28: DEBUG [conexion.py:39] The cursor has been opened success: <cursor object at 0x7fdd0b16ca90; closed: 0>
+2021:09:28: DEBUG [persona_dao.py:37] person inserted: Persona: 
+            id_persona: None, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:28: DEBUG [persona_dao.py:48] Person inserted: 1
+2021:09:29: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7f1a839cba40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:39] The cursor has been opened success: <cursor object at 0x7f1a8390ca90; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:47] Persona: 
+            id_persona: 1, nombre: Giovanni, 
+            apellido: Di Virgilio, email: gdivirgilio@gmail.com
+2021:09:29: DEBUG [persona_dao.py:47] Persona: 
+            id_persona: 2, nombre: Sofia, 
+            apellido: Morales, email: smorales@gmail.com
+2021:09:29: DEBUG [persona_dao.py:47] Persona: 
+            id_persona: 3, nombre: Julio, 
+            apellido: Fernandez, email: jfernandez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:47] Persona: 
+            id_persona: 8, nombre: Fernando, 
+            apellido: Perez, email: fperez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:47] Persona: 
+            id_persona: 9, nombre: Leticia, 
+            apellido: America, email: lamerica@gmail.com
+2021:09:29: DEBUG [persona_dao.py:47] Persona: 
+            id_persona: 11, nombre: Emilia, 
+            apellido: Clark, email: eclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:47] Persona: 
+            id_persona: 12, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:47] Persona: 
+            id_persona: 13, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:47] Persona: 
+            id_persona: 14, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:47] Persona: 
+            id_persona: 15, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7f719332e680; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:39] The cursor has been opened success: <cursor object at 0x7f71914f04f0; closed: 0>
+2021:09:29: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7f8ef21fe680; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:39] The cursor has been opened success: <cursor object at 0x7f8ef03c04f0; closed: 0>
+2021:09:29: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7fcfb41d6680; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:39] The cursor has been opened success: <cursor object at 0x7fcfb23984f0; closed: 0>
+2021:09:29: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7fe13cabba40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:39] The cursor has been opened success: <cursor object at 0x7fe13c9fca90; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 1, nombre: Giovanni, 
+            apellido: Di Virgilio, email: gdivirgilio@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 2, nombre: Sofia, 
+            apellido: Morales, email: smorales@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 3, nombre: Julio, 
+            apellido: Fernandez, email: jfernandez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 8, nombre: Fernando, 
+            apellido: Perez, email: fperez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 9, nombre: Leticia, 
+            apellido: America, email: lamerica@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 11, nombre: Emilia, 
+            apellido: Clark, email: eclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 12, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 13, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 14, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 15, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7f5ab0d3aa40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:41] The cursor has been opened success: <cursor object at 0x7f5ab0c7ca90; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 1, nombre: Giovanni, 
+            apellido: Di Virgilio, email: gdivirgilio@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 2, nombre: Sofia, 
+            apellido: Morales, email: smorales@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 3, nombre: Julio, 
+            apellido: Fernandez, email: jfernandez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 8, nombre: Fernando, 
+            apellido: Perez, email: fperez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 9, nombre: Leticia, 
+            apellido: America, email: lamerica@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 11, nombre: Emilia, 
+            apellido: Clark, email: eclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 12, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 13, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 14, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 15, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7fb456113a40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:40] The cursor has been opened success: <cursor object at 0x7fb456054a90; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 1, nombre: Giovanni, 
+            apellido: Di Virgilio, email: gdivirgilio@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 2, nombre: Sofia, 
+            apellido: Morales, email: smorales@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 3, nombre: Julio, 
+            apellido: Fernandez, email: jfernandez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 8, nombre: Fernando, 
+            apellido: Perez, email: fperez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 9, nombre: Leticia, 
+            apellido: America, email: lamerica@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 11, nombre: Emilia, 
+            apellido: Clark, email: eclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 12, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 13, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 14, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 15, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [conexion.py:28] Conexion exitosa: <connection object at 0x7fc912533a40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:42] The cursor has been opened success: <cursor object at 0x7fc912474a90; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 1, nombre: Giovanni, 
+            apellido: Di Virgilio, email: gdivirgilio@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 2, nombre: Sofia, 
+            apellido: Morales, email: smorales@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 3, nombre: Julio, 
+            apellido: Fernandez, email: jfernandez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 8, nombre: Fernando, 
+            apellido: Perez, email: fperez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 9, nombre: Leticia, 
+            apellido: America, email: lamerica@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 11, nombre: Emilia, 
+            apellido: Clark, email: eclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 12, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 13, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 14, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 15, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [conexion.py:29] Conexion exitosa: <connection object at 0x7f5b73593a40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:43] The cursor has been opened success: <cursor object at 0x7f5b734d4a90; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 1, nombre: Giovanni, 
+            apellido: Di Virgilio, email: gdivirgilio@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 2, nombre: Sofia, 
+            apellido: Morales, email: smorales@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 3, nombre: Julio, 
+            apellido: Fernandez, email: jfernandez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 8, nombre: Fernando, 
+            apellido: Perez, email: fperez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 9, nombre: Leticia, 
+            apellido: America, email: lamerica@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 11, nombre: Emilia, 
+            apellido: Clark, email: eclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 12, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 13, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 14, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 15, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [conexion.py:29] Conexion exitosa: <connection object at 0x7f33d3743a40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:48] The cursor has been opened success: <cursor object at 0x7f33d3684a90; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 1, nombre: Giovanni, 
+            apellido: Di Virgilio, email: gdivirgilio@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 2, nombre: Sofia, 
+            apellido: Morales, email: smorales@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 3, nombre: Julio, 
+            apellido: Fernandez, email: jfernandez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 8, nombre: Fernando, 
+            apellido: Perez, email: fperez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 9, nombre: Leticia, 
+            apellido: America, email: lamerica@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 11, nombre: Emilia, 
+            apellido: Clark, email: eclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 12, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 13, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 14, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 15, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [conexion.py:29] Conexion exitosa: <connection object at 0x7f9021a1ba40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:50] The cursor has been opened success: <cursor object at 0x7f902195ca90; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 1, nombre: Giovanni, 
+            apellido: Di Virgilio, email: gdivirgilio@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 2, nombre: Sofia, 
+            apellido: Morales, email: smorales@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 3, nombre: Julio, 
+            apellido: Fernandez, email: jfernandez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 8, nombre: Fernando, 
+            apellido: Perez, email: fperez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 9, nombre: Leticia, 
+            apellido: America, email: lamerica@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 11, nombre: Emilia, 
+            apellido: Clark, email: eclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 12, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 13, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 14, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 15, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [conexion.py:29] Conexion exitosa: <connection object at 0x7f1fc951ba40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:50] The cursor has been opened success: <cursor object at 0x7f1fc945ca90; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 1, nombre: Giovanni, 
+            apellido: Di Virgilio, email: gdivirgilio@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 2, nombre: Sofia, 
+            apellido: Morales, email: smorales@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 3, nombre: Julio, 
+            apellido: Fernandez, email: jfernandez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 8, nombre: Fernando, 
+            apellido: Perez, email: fperez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 9, nombre: Leticia, 
+            apellido: America, email: lamerica@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 11, nombre: Emilia, 
+            apellido: Clark, email: eclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 12, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 13, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 14, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 15, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [conexion.py:50] The cursor has been opened success: <cursor object at 0x7f1fc945c9a0; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:36] person inserted: Persona: 
+            id_persona: None, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:50] Person inserted: 1
+2021:09:29: DEBUG [conexion.py:50] The cursor has been opened success: <cursor object at 0x7f1fc945ca90; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 1, nombre: Giovanni, 
+            apellido: Di Virgilio, email: gdivirgilio@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 2, nombre: Sofia, 
+            apellido: Morales, email: smorales@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 3, nombre: Julio, 
+            apellido: Fernandez, email: jfernandez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 8, nombre: Fernando, 
+            apellido: Perez, email: fperez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 9, nombre: Leticia, 
+            apellido: America, email: lamerica@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 11, nombre: Emilia, 
+            apellido: Clark, email: eclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 12, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 13, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 14, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 15, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 16, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7fa4d1e12a40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:41] The cursor has been opened success: <cursor object at 0x7fa4d1d54a90; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 1, nombre: Giovanni, 
+            apellido: Di Virgilio, email: gdivirgilio@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 2, nombre: Sofia, 
+            apellido: Morales, email: smorales@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 3, nombre: Julio, 
+            apellido: Fernandez, email: jfernandez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 8, nombre: Fernando, 
+            apellido: Perez, email: fperez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 9, nombre: Leticia, 
+            apellido: America, email: lamerica@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 11, nombre: Emilia, 
+            apellido: Clark, email: eclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 12, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 13, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 14, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 15, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:45] Persona: 
+            id_persona: 16, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [conexion.py:41] The cursor has been opened success: <cursor object at 0x7fa4d1d549a0; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:36] person inserted: Persona: 
+            id_persona: None, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:50] Person inserted: 1
+2021:09:29: DEBUG [conexion.py:41] The cursor has been opened success: <cursor object at 0x7fa4d1d54a90; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 1, nombre: Giovanni, 
+            apellido: Di Virgilio, email: gdivirgilio@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 2, nombre: Sofia, 
+            apellido: Morales, email: smorales@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 3, nombre: Julio, 
+            apellido: Fernandez, email: jfernandez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 8, nombre: Fernando, 
+            apellido: Perez, email: fperez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 9, nombre: Leticia, 
+            apellido: America, email: lamerica@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 11, nombre: Emilia, 
+            apellido: Clark, email: eclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 12, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 13, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 14, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 15, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 16, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:55] Persona: 
+            id_persona: 17, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7f66f798ba40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:41] The cursor has been opened success: <cursor object at 0x7f66f78cca90; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:45] person inserted: Persona: 
+            id_persona: 14, nombre: Maxi, 
+            apellido: Bruzzonis, email: mbruzzonis@gmail.com
+2021:09:29: DEBUG [persona_dao.py:54] Person inserted: 1
+2021:09:29: DEBUG [conexion.py:41] The cursor has been opened success: <cursor object at 0x7f66f78cc9a0; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 1, nombre: Giovanni, 
+            apellido: Di Virgilio, email: gdivirgilio@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 2, nombre: Sofia, 
+            apellido: Morales, email: smorales@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 3, nombre: Julio, 
+            apellido: Fernandez, email: jfernandez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 8, nombre: Fernando, 
+            apellido: Perez, email: fperez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 9, nombre: Leticia, 
+            apellido: America, email: lamerica@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 11, nombre: Emilia, 
+            apellido: Clark, email: eclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 12, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 13, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 14, nombre: Maxi, 
+            apellido: Bruzzonis, email: mbruzzonis@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 15, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 16, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 17, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7fe726b9ba40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:41] The cursor has been opened success: <cursor object at 0x7fe726adca90; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:45] person inserted: Persona: 
+            id_persona: 15, nombre: Floro, 
+            apellido: Nerone, email: fnerone@gmail.com
+2021:09:29: DEBUG [persona_dao.py:54] Person inserted: 1
+2021:09:29: DEBUG [conexion.py:41] The cursor has been opened success: <cursor object at 0x7fe726adc9a0; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 1, nombre: Giovanni, 
+            apellido: Di Virgilio, email: gdivirgilio@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 2, nombre: Sofia, 
+            apellido: Morales, email: smorales@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 3, nombre: Julio, 
+            apellido: Fernandez, email: jfernandez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 8, nombre: Fernando, 
+            apellido: Perez, email: fperez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 9, nombre: Leticia, 
+            apellido: America, email: lamerica@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 11, nombre: Emilia, 
+            apellido: Clark, email: eclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 12, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 13, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 14, nombre: Maxi, 
+            apellido: Bruzzonis, email: mbruzzonis@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 15, nombre: Floro, 
+            apellido: Nerone, email: fnerone@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 16, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:64] Persona: 
+            id_persona: 17, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7fe32e15ca40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:41] The cursor has been opened success: <cursor object at 0x7fe32e09ca90; closed: 0>
+2021:09:29: DEBUG [conexion.py:26] Conexion exitosa: <connection object at 0x7f956b25ca40; dsn: 'user=leandro password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2021:09:29: DEBUG [conexion.py:41] The cursor has been opened success: <cursor object at 0x7f956b19ca90; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:54] person deleted: Persona: 
+            id_persona: 16, nombre: None, 
+            apellido: None, email: None
+2021:09:29: DEBUG [persona_dao.py:65] Person deleted: 1
+2021:09:29: DEBUG [conexion.py:41] The cursor has been opened success: <cursor object at 0x7f956b19c9a0; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:45] person inserted: Persona: 
+            id_persona: 15, nombre: Floro, 
+            apellido: Nerone, email: fnerone@gmail.com
+2021:09:29: DEBUG [persona_dao.py:71] Person inserted: 1
+2021:09:29: DEBUG [conexion.py:41] The cursor has been opened success: <cursor object at 0x7f956b19ca90; closed: 0>
+2021:09:29: DEBUG [persona_dao.py:81] Persona: 
+            id_persona: 1, nombre: Giovanni, 
+            apellido: Di Virgilio, email: gdivirgilio@gmail.com
+2021:09:29: DEBUG [persona_dao.py:81] Persona: 
+            id_persona: 2, nombre: Sofia, 
+            apellido: Morales, email: smorales@gmail.com
+2021:09:29: DEBUG [persona_dao.py:81] Persona: 
+            id_persona: 3, nombre: Julio, 
+            apellido: Fernandez, email: jfernandez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:81] Persona: 
+            id_persona: 8, nombre: Fernando, 
+            apellido: Perez, email: fperez@gmail.com
+2021:09:29: DEBUG [persona_dao.py:81] Persona: 
+            id_persona: 9, nombre: Leticia, 
+            apellido: America, email: lamerica@gmail.com
+2021:09:29: DEBUG [persona_dao.py:81] Persona: 
+            id_persona: 11, nombre: Emilia, 
+            apellido: Clark, email: eclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:81] Persona: 
+            id_persona: 12, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:81] Persona: 
+            id_persona: 13, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
+2021:09:29: DEBUG [persona_dao.py:81] Persona: 
+            id_persona: 14, nombre: Maxi, 
+            apellido: Bruzzonis, email: mbruzzonis@gmail.com
+2021:09:29: DEBUG [persona_dao.py:81] Persona: 
+            id_persona: 15, nombre: Floro, 
+            apellido: Nerone, email: fnerone@gmail.com
+2021:09:29: DEBUG [persona_dao.py:81] Persona: 
+            id_persona: 17, nombre: Josephine, 
+            apellido: Clark, email: jclark@gmail.com
