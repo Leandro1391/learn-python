@@ -1,6 +1,6 @@
 import sys
 from logger_base import log
-import psycopg2 as bd
+from psycopg2 import pool
 
 class Conexion:
 
@@ -9,44 +9,54 @@ class Conexion:
     _PASSWORD = ''
     _DB_PORT = '5432'
     _HOST = 'localhost'
-    _conn = None
-    _cursor = None
+    _MIN_CONN = 1
+    _MAX_CONN = 5
+    _pool = None
     
+    @classmethod
+    def getPool(cls):
+        if cls._pool is None:
+            try:
+                cls._pool = pool.SimpleConnectionPool(cls._MIN_CONN, cls._MAX_CONN,
+                                                            host = cls._HOST,
+                                                            user = cls._USERNAME,
+                                                            password = cls._PASSWORD,
+                                                            port = cls._DB_PORT,
+                                                            database = cls._DATABASE)
+                log.debug(f'Success create pool {cls._pool}')
+                return cls._pool
+            except Exception as e:
+                log.error(f'Exception to get pool: {e}, {type(e)}')
+                sys.exit()
+        else:
+            return cls._pool
 
     @classmethod
     def getConection(cls):
-        if cls._conn is None or cls._conn.closed:
-            try:
-                cls._conn = bd.connect(host=cls._HOST,
-                    user=cls._USERNAME,
-                    password=cls._PASSWORD,
-                    port=cls._DB_PORT,
-                    database=cls._DATABASE
-                )
-                log.debug(f'Conexion exitosa: {cls._conn}')
-                return cls._conn
-            except Exception as e:
-                log.error(f'Exception - Error handled: {e}, {type(e)}')
-                sys.exit()
-        else:
-            return cls._conn
+        conexion = cls.getPool().getconn()
+        log.debug(f'Conexion obtenido del pool: {conexion}')
+        return conexion
+
+    @classmethod
+    def looseConnection(cls, conexion):
+        cls.getPool().putconn(conexion)
+        log.debug(f'We return the pool conection: {conexion}')
+
+    @classmethod
+    def closeConetions(cls):
+        cls.getPool().closeall()
 
     @classmethod
     def getCursor(cls):
-        if cls._cursor is None or cls._cursor.closed:
-            try:
-                print('Estoy en el TRY del get Cursor')
-                cls._cursor = cls.getConection().cursor()
-                print(cls._cursor)
-                log.debug(f'The cursor has been opened success: {cls._cursor}')
-                return cls._cursor
-            except Exception as e:
-                log.error(f'Exception to get cursor- Error handled: {e}, {type(e)}')
-                sys.exit()
-        else:
-            return cls._cursor
-
+        pass
 
 if __name__ == '__main__':
-    Conexion.getConection()
-    Conexion.getCursor()
+    conexion1 = Conexion.getConection()
+    Conexion.looseConnection(conexion1)
+    conexion2 = Conexion.getConection()
+    conexion3 = Conexion.getConection()
+    Conexion.looseConnection(conexion3)
+    conexion4 = Conexion.getConection()
+    conexion5 = Conexion.getConection()
+    Conexion.looseConnection(conexion5)
+    conexion6 = Conexion.getConection()
